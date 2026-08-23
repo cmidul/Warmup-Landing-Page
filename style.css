@@ -73,3 +73,44 @@
     width: 300px;
     height: auto;
 }
+
+/*Clients*/
+.our-clients{
+    display: flex;
+    flex-direction: column;
+}
+
+.client-head{
+    display: flex;
+    justify-content: center;
+}
+
+.client-para{
+    display: flex;
+    justify-content: center;
+}
+
+.client-head h1{
+    padding-top: 20px;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #2b2b3a;
+}
+
+.client-para p{
+    margin: 0;
+    font-size: 12px;
+    color: #555;
+}
+
+.client-logo{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.client-logo img{
+    width: 30px;
+    height: 30px;
+}
