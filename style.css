@@ -135,12 +135,38 @@
 }
 
 /*icons*/
-.icons{
-    padding-top: 20px;
+.cards{
     display: flex;
     justify-content: space-evenly;
+    border: #2b2b3a;
+    padding-top: 25px;
 }
-.icons img{
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 100px 10px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+}
+
+.card span{
+    display: block;
+}
+
+.cards img{
     width: 45px;
     height: 45px;
+}
+
+.cards h1{
+    font-size: 30px;
+}
+
+.cards p{
+    font-size: 15px;
+    color: #555;
 }
