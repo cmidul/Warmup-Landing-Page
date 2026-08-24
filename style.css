@@ -351,4 +351,87 @@
 }
 
 /*lower*/
+.lower{
+    background-color: #263238;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding: 20px;
+}
 
+.lower-logo img{
+    width: 35px;
+    height: 25px;
+    padding-right: 5px;
+}
+.lower-logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.lower1{
+    padding: 20px;
+}
+.lower1 span{
+    display: block;
+}
+.lower1 p{
+    font-size: 10px;
+}
+.lower-icons{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.lower-icons img{
+    width: 30px;
+}
+
+.lower2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.company h1{
+    font-size: 20px;
+}
+.company p{
+    font-size: 10px;
+}
+
+.email{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #555;
+    width: 200px;
+    height: 30px;
+}
+
+.email input{
+    border: none;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    padding-right: 70px;
+}
+
+.email ::placeholder{
+    color: #fff;
+}
+
+.email img{
+    width: 15px;
+    height: 15px;
+    padding-right: 10px;
+}
