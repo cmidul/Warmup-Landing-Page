@@ -277,5 +277,20 @@
 .tesla h5{
     color: #43A046;
 }
-
+/*caring*/
+.caring{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 105px;
+    padding-right: 105px;    
+}
+.caring h1{
+    font-size: 30px;
+}
+.caring p{
+    text-align: center;
+    font-size: 13px;
+    color: #555;
+}
 
